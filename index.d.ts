@@ -3,6 +3,7 @@ import { StyleProp, ViewStyle } from "react-native";
 
 declare module "react-native-raw-bottom-sheet" {
   export type RBSheetProps = {
+    children?:React.ReactNode;
     animationType?: "none" | "fade" | "slide";
     height?: number;
     minClosingHeight?: number;
